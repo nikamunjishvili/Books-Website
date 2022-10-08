@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--Font awesome cdn link-->
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+        <a href="#" class="logo"><i class="fas fa-book"></i>Books.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#dishes">Best books</a>
+            <a href="#about">About</a>
+            <a href="#menu">writers</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<section class="home" id="Home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>ნიკოლოზ ტოტოღაშვილი:!</span>
+                    <h3>შვიდი მომაკვდინებელი გრძნობა</h3>
+                    <p>ამბავი იან კლაინზეა, უცნაურ მხატვარზე, რომლისთვისაც ყოველი დღე <br>
+                        ერთნაირად უიმედოა; ფილოსოფიაც თავისებური აქვს - ფერების<br>
+                        ფილოსოფია; მეგობრებიც ჰყავს, თუმცა მაინც მარტოსულია...</p>
+                    <a href="#" class="btn">ვრცლად</a>
+                </div>
+                <div class="image">
+                    <img src="image/seven.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>ნიკოლოზ ტოტოღაშვილი:!</span>
+                    <h3>მე არ ვარ ნეონი</h3>
+                    <p>ერთი მდიდარი ოჯახიდან არის, ბრწყინვალე გარეგნობისა და განსაკუთრებული
+                     უნარების მქონე დაიბადა, მეორე კი ხელმოკლე მშობლების შთამომავალი, არაფრით
+                    გამორჩეული ბავშვია, რომელსაც მუდმივად</p>
+                    <a href="#" class="btn">ვრცლად</a>
+                </div>
+                <div class="image">
+                    <img src="image/neon.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>ხალიდ ჰოსეინ:!</span>
+                    <h3>ფრანით მორბენალი</h3>
+                    <p>ხალიდ ჰოსეინი ავღანური წარმოშობის ამერიკელი მწერლია, რომლის წიგნი “ფრანით მორბენალი” სწორედ ავღანურ-ამერიკული ცხოვრების შესახებ გვიამბობს.
+                        არსებობდა მრავალი მოსაზრება იმის თაობაზე, </p>
+                    <a href="#" class="btn">ვრცლად</a>
+                </div>
+                <div class="image">
+                    <img src="image/ფრანით-მორბენალი.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>სოფო არდია:!</span>
+                    <h3>გროსმაისტერი</h3>
+                    <p>ეს ისტორია კი ერთ ჭკვიან მანიპულატორ ადამიანზეა, რომელიც 
+                        სხვებით თამაშობდა და თავისი მიზნის მისაღწევად არაფერს იშუ
+                        რებდა. ის ყველაზე ცნობილი იყო იმ დროს, ყველაზე პოპულარული... მაგრამ სინამდვილეში მას მაინც არავინ იცნობდა.</p>
+                    <a href="#" class="btn">ვრცლად</a>
+                </div>
+                <div class="image">
+                    <img src="image/gros.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading">ბესტსელერები:!</h3>
+    <h1 class="heading">ყველაზე გაყიდვადი:!</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img class="kill"  src="image/kil.webp" alt="">
+            <h3>რომანი:!</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="https://eon.ge/book/%E1%83%9C%E1%83%A3-%E1%83%9B%E1%83%9D%E1%83%99%E1%83%9A%E1%83%90%E1%83%95-%E1%83%AF%E1%83%90%E1%83%A4%E1%83%90%E1%83%A0%E1%83%90%E1%83%A1/" class="btn">ვრცლად</a>
+        </div>
+
+         
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img class="kill" src="image/mop.webp" alt="">
+            <h3>რომანი:!</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="https://www.scribd.com/document/477868611/%E1%83%97%E1%83%98%E1%83%9C%E1%83%90%E1%83%97%E1%83%98%E1%83%9C-%E1%83%91%E1%83%94%E1%83%A0%E1%83%98%E1%83%AB%E1%83%94-%E1%83%9B%E1%83%9D%E1%83%9E%E1%83%90%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%A1%E1%83%98%E1%83%A7%E1%83%95%E1%83%90%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98-compressed-22-06-2020" class="btn">ვრცლად</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img class="kill" src="image/astr.png" alt="">
+            <h3>რომანი:!</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="https://palitral.ge/product/5035/astralis-suli" class="btn">ვრცლად</a>
+        </div>
+
+         
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img class="kill" src="image/sec ch.png" alt="">
+            <h3>რომანი:!</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="https://palitral.ge/product/5081/meore-shansi" class="btn">ვრცლად</a>
+        </div>
+
+         
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img class="kill" src="image/mauntain.png" alt="">
+            <h3>რომანი:!</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="https://saba.com.ge/books/details/6378/%E1%83%9B%E1%83%97%E1%83%94%E1%83%91%E1%83%9B%E1%83%90%E2%80%82%E1%83%9B%E1%83%97%E1%83%94%E1%83%91%E1%83%A1%E2%80%82%E1%83%A3%E1%83%97%E1%83%AE%E1%83%A0%E1%83%94%E1%83%A1" class="btn">ვრცლად</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img class="kill"  src="image/kil.webp" alt="">
+            <h3>რომანი:!</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="https://eon.ge/book/%E1%83%9C%E1%83%A3-%E1%83%9B%E1%83%9D%E1%83%99%E1%83%9A%E1%83%90%E1%83%95-%E1%83%AF%E1%83%90%E1%83%A4%E1%83%90%E1%83%A0%E1%83%90%E1%83%A1/" class="btn">ვრცლად</a>
+        </div>
+         
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img class="kill" src="image/sun.png" alt="">
+            <h3>რომანი:!</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="https://eon.ge/book/%E1%83%90%E1%83%97%E1%83%90%E1%83%A1%E1%83%98-%E1%83%9B%E1%83%9D%E1%83%94%E1%83%9A%E1%83%95%E1%83%90%E1%83%A0%E1%83%94-%E1%83%9B%E1%83%96%E1%83%94/" class="btn">ვრცლად</a>
+        </div>
+         
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img class="kill" src="image/astr.png" alt="">
+            <h3>რომანი:!</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="https://palitral.ge/product/5035/astralis-suli" class="btn">ვრცლად</a>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading">ჩვენ შესახებ</h3>
+    <h1 class="heading">რატომ ჩვენ</h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/el-dolar-384.png" alt="">
+        </div>
+        <div class="content">
+            <h3>საუკეთესო ფასი მთელ საქართველოში</h3>
+            <p>წიგნები ერთადერთია რაც მუდამ რჩება როგორც ადამიანის მეხსიერებაში 
+                ასევე ისტორიაში,წიგნები რომ არა არ გვეცოდინებოდა წარსილი,ის ერთადერთია რაც სამყაროში თავის კვალს ტოვებს.ამიტომ
+                გადავწყვიტეთ შემოგვეთავაზებინა წლის საუკეთესო ბესტსელერები თქვენთვის და რაც მთავარია საუკეთესო ფასად.!:
+            </p>
+            
+            <p>ამ საიტზე თავსიყრის ყველა საუკეთესო ნაწარმოები რომლებმაც მოწონება დაიმსახურეს ხალხში
+                ამიტომ კარგად გაეცანით თითოეულ ნამუშევარს!:
+            </p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>უფასო მიწოდება</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>შეიძინე მარტივად</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 მომსახურეობა</span>
+                </div>
+            </div>
+            <a href="#" class="btn">ვრცლად</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="menu" id="menu">
+
+    
+    <h3 class="sub-heading">ყველა დროის საუკეთესო მწერლები</h3>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="image/tveni.jpg" alt="">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%9B%E1%83%90%E1%83%A0%E1%83%99_%E1%83%A2%E1%83%95%E1%83%94%E1%83%9C%E1%83%98" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>მარკ ტვენი</h3>
+                <p>ამერიკელი მწერალი, სატირიკოსი და იუმორისტი.
+
+                    ყველაზე დიდი პოპულარობა მოიპოვეს მარკ ტვენის ნაწარმოებმა „
+                    ჰეკლბერი ფინის თავგადასავალი“ და „ტომ სოიერის თავგადასავლები“....
+                        </p>
+                    <a href="#" class="btn">ვრცლად</a>
+                    </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image/lev.webp" alt="">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%9A%E1%83%94%E1%83%95_%E1%83%A2%E1%83%9D%E1%83%9A%E1%83%A1%E1%83%A2%E1%83%9D%E1%83%98" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>ლევ ტოლსტოი</h3>
+                <p>დაიბადა მდიდარ და დიდგვაროვან ოჯახში (მამა — გრაფი
+                     ნიკოლოზ ილიას ძე, 1812 სამამულო ომის მონაწილე; 
+                    დედა — მარია ვოლკონსკაია). მშობლები ადრე გარდაეცვალა....
+                        </p>
+                    <a href="#" class="btn">ვრცლად</a>
+                    </div>
+        </div>
+        
+
+        <div class="box">
+            <div class="image">
+                <img src="image/charl.jpg" alt="">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%A9%E1%83%90%E1%83%A0%E1%83%9A%E1%83%96_%E1%83%93%E1%83%98%E1%83%99%E1%83%94%E1%83%9C%E1%83%A1%E1%83%98" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>ჩარლ დიკენსი</h3>
+                <p>ჩარლზ დიკენსი დაიბადა 1812 წლის 7 თებერვალს. მისი
+                     მშობლებია ელისაბედი და
+                     ჯონ დიკენსი. ჯონ დიკენსი იყო საზღვაო უწყების კლერკი....</p>
+                    <a href="#" class="btn">ვრცლად</a>
+                    </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image/uiliam.jpg" alt="">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%A3%E1%83%98%E1%83%9A%E1%83%98%E1%83%90%E1%83%9B_%E1%83%A8%E1%83%94%E1%83%A5%E1%83%A1%E1%83%9E%E1%83%98%E1%83%A0%E1%83%98" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>უილიამ შექსპირი</h3>
+                <p>უილიამ შექსპირი მონათლეს უორიკის საგრაფოში მდებარე
+                     სტრეტფორდ-ონ-ეივონის 
+                    ეკლესიაში 1564 წლის 26 აპრილს, რაც იმას მოწმობს....
+                        </p>
+                    <a href="#" class="btn">ვრცლად</a>
+                    </div>
+        </div>
+        
+        <div class="box">
+            <div class="image">
+                <img src="image/lev.webp" alt="">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%9A%E1%83%94%E1%83%95_%E1%83%A2%E1%83%9D%E1%83%9A%E1%83%A1%E1%83%A2%E1%83%9D%E1%83%98" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>ლევ ტოლსტოი</h3>
+                <p>დაიბადა მდიდარ და დიდგვაროვან ოჯახში (მამა — გრაფი
+                     ნიკოლოზ ილიას ძე, 1812 სამამულო ომის მონაწილე; 
+                    დედა — მარია ვოლკონსკაია). მშობლები ადრე გარდაეცვალა....
+                        </p>
+                    <a href="#" class="btn">ვრცლად</a>
+                    </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="image/charl.jpg" alt="">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%A9%E1%83%90%E1%83%A0%E1%83%9A%E1%83%96_%E1%83%93%E1%83%98%E1%83%99%E1%83%94%E1%83%9C%E1%83%A1%E1%83%98" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>ჩარლ დიკენსი</h3>
+                <p>ჩარლზ დიკენსი დაიბადა 1812 წლის 7 თებერვალს. მისი
+                     მშობლებია ელისაბედი და
+                     ჯონ დიკენსი. ჯონ დიკენსი იყო საზღვაო უწყების კლერკი....</p>
+                    <a href="#" class="btn">ვრცლად</a>
+                    </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image/hiugo.jpg" alt="">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%95%E1%83%98%E1%83%A5%E1%83%A2%E1%83%9D%E1%83%A0_%E1%83%B0%E1%83%98%E1%83%A3%E1%83%92%E1%83%9D" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>ვიქტორ ჰიუგო</h3>
+                <p>ამერიკელი მწერალი, სატირიკოსი და იუმორისტი.
+
+                    ყველაზე დიდი პოპულარობა მოიპოვეს მარკ ტვენის ნაწარმოებმა „
+                    ჰეკლბერი ფინის თავგადასავალი“ და „ტომ სოიერის თავგადასავლები“....
+                        </p>
+                    <a href="#" class="btn">ვრცლად</a>
+                    </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image/dostv.jpg" alt="">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%A4%E1%83%98%E1%83%9D%E1%83%93%E1%83%9D%E1%83%A0_%E1%83%93%E1%83%9D%E1%83%A1%E1%83%A2%E1%83%9D%E1%83%94%E1%83%95%E1%83%A1%E1%83%99%E1%83%98" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>ფიოდორ დოსტოევსკი</h3>
+                <p> დოსტოევსკი მოსკოვში დაიბადა. ლიტერატურას პირველად 
+                    ადრეუ
+                    ლ ასაკში ეზიარა ზღაპრებისა და ლეგენდების საშუალებით....</p>
+                    <a href="#" class="btn">ვრცლად</a>
+                    </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading">შეიძინეთ ახლავე</h3>
+<h1 class="heading">იაფად და სწრაფად</h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>შენი სახელი</span>
+                <input type="text" placeholder="სახელი">
+            </div>
+            <div class="input">
+                <span>შენი ნომერი</span>
+                <input type="number" placeholder="ნომერი">
+            </div>
+            
+        <div class="inputBox">
+            <div class="input">
+                <span>გამოწერა</span>
+                <input type="text" placeholder="წიგნის სახელი">
+            </div>
+            <div class="input">
+                <span>დამატებითი წიგნები</span>
+                <input type="test" placeholder="სხვა">
+            </div>
+            
+        <div class="inputBox">
+            <div class="input">
+                <span>რამდენი</span>
+                <input type="number" placeholder="რამდენის გამოწერა">
+            </div>
+            <div class="input">
+                <span>მონაცემები და დრო </span>
+                <input type="datetime-local">
+            </div>
+
+            
+        <div class="inputBox">
+            <div class="input">
+                <span>მისამართი</span>
+                <textarea name="" placeholder="ჩაწერე შენი მისამართი" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>შენი შეტყობინება</span>
+                <textarea name="" placeholder="ჩაწერე შენი შეტყობინება" id="" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="შეუკვეთე ახლა" class="btn">
+
+        </div>
+    </form>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>სწრაფი ლინკები</h3>
+            <a href="#">Home</a>
+            <a href="#">Best books</a>
+            <a href="#">About</a>
+            <a href="#">Writers</a>
+            <a href="#">order</a>
+        </div>
+        <div class="box">
+            <h3>კონტაქტი</h3>
+            <a href="#">+123-456-789</a>
+            <a href="#">+111+222+333</a>
+            <a href="#">munjishvili@gmail.com</a>
+            <a href="#">nikamunja123@gmail.com</a>
+            <a href="#">Georgia, Tbilisi - 40034003</a>
+        </div>
+        <div class="box">
+            <h3>დაგვაფოლოვე</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+    <div class="credit"> copyright @ 2022 by <span>mr.web designer</span></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--Custom js file link-->
+    <script src="script.js"></script>
+</body>
+</html>
